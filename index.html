@@ -41,22 +41,36 @@ body {font-size:16px;}
 <!-- !PAGE CONTENT! -->
 <div class="w3-main" style="margin-left:340px;margin-right:40px">
 
-  <!-- Header -->
-  <div class="w3-container" style="margin-top:80px" id="one">
+  <!-- Introduction/Header -->
+  <div class="w3-container" style="margin-top:80px">
     <h1 class="w3-jumbo"><b>Ambient Noise Generator Part 2</b></h1>
+    <h1 class="w3-xxxlarge w3-text-red"><b>Introduction</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>This page will discuss the design and interface of the Ambient Noise Generator website. Discussed are low-fidelity mockups that will represent the design of the website that corresponds to user requirements as well as descriptions detailing the functionality of the interface. For more information on the Ambient Noise Generators requirements, see: https://corbingraham.github.io/SENG_310_phase_1/ (add some sidebar navigation for the website?)
+    </p>
+    <p>The design of our ambient noise generator website is inspired by the pre-existing site defonic which is a site that also allows users to create their own ambient soundscapes. The website itself will have a similar minimalistic design to the original but with several tweaks and functional upgrades which will be described in detail below. The layout of the site will be kept simple and easy to use with the most important functions accessible from the top right corner of the site at all times. The name of our site will appear at the center of the webpage along with our brand tagline and our logotype will be on the top left corner of the site. The color scheme of the site will include the calm cool toned sky blue and its complimentary color yellow. The fonts used are minimalist and easy to read in sans serif style. A more rounded, quirky font ‘Quinta’ will be used for the title of the site as well as the names of the sound samples while a bolded arial will be used for options headings like ‘sign up/log in’, ‘import’, ‘export’.
+    </p>
+  </div>
+
+  <!-- Requirement 1 -->
+  <div class="w3-container" style="margin-top:80px" id="one">
     <h1 class="w3-xxxlarge w3-text-red"><b>Requirement 1</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>There should be a library of existing/premade common sound samples on the website. Initial requirements will be for 20 different sounds, drawing primarily from natural sounds (e.g. birdsong, fire, waves, etc.).</p>
+    <img alt="" src="images/requirement_1.png">
+    <p>Data will be collected from similar pre-existing sites like defonic of what sounds are the most clicked on and played the longest. A list of looping sounds would then be compiled based on user needs. They should be available on the front page of the site with the more popular ones at the top of the page. Sounds should be displayed as boxes with a picture and title with the picture being a symbolic representation of the sound. The sounds will be listed in descending rows of four. Each sound should have a corresponding play/pause button integrated with the image, which will operate independently of all other sounds, as well as an independently operating volume control slider for that sound which appears when the sound is played below the image. All of the sliders will start at zero, and the user adjusts accordingly.  There will also be a search bar at the top right hand corner that allows user to find the sounds they desire faster.</p>
   </div>
 
   <!-- Services -->
   <div class="w3-container" id="two" style="margin-top:75px">
     <h1 class="w3-xxxlarge w3-text-red"><b>Requirement 2</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
-    <p>We are a interior design service that focus on what's best for your home and what's best for you!</p>
-    <p>Some text about our services - what we do and what we offer. We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
-    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    <p>The user should be able to independently control the volume of any of the ambient sounds as well as being able to control the master volume.</p>
+    <img alt="" src="images/requirement_2.png">
+    <p>The volume of each of the ambient sounds can be controlled by each sound’s individual volume slider as described in requirement 1. The master volume should be a drop down slider located at the top right hand corner of the screen from a volume icon, to the left of the master play/pause button. The user can click the master volume icon to mute or when sounds are playing a slider will appear beside the volume icon for users to adjust the master volume level.
     </p>
+    <img alt="" src="images/mute_unmute.png">
+    <p>This is an example of the icon’s appearance when not muted versus being muted.</p>
   </div>
   
   <!-- Designers -->
@@ -136,6 +150,16 @@ body {font-size:16px;}
       </div>
       <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Send Message</button>
     </form>  
+  </div>
+
+  <!-- Requirement 6 -->
+  <div class="w3-container" style="margin-top:80px" id="six">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Requirement 6</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>There should be a play/pause button so that users can stop or resume playback of sound samples.</p>
+    <img alt="" src="images/requirement_6.png">
+    <p>The play button is positioned in the top right hand corner. It will follow the screen and keep its position at the top right hand corner of the window if a user scrolls up or down in the webpage so that users can pause or play at any time. The icon should responsively change between play and pause so that users have a visual identification that the music can be resumed or paused.</p>
+    <img alt="" src="images/play_pause.png">
   </div>
 
 <!-- End page content -->
